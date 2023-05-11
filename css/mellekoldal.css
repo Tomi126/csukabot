@@ -1,0 +1,64 @@
+
+body{
+    margin: 0px;
+    }
+    
+  .ceg{
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+    
+  .kereso{
+    background-color: rgb(175, 175, 175);
+    height: 100px;
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+    
+  .ajanlatok{
+    height: 100px;
+    margin-top: 5px;
+    background-color: rgb(202, 202, 202);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  .container{
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    position: fixed;
+  }
+  
+  .box{
+    width: 20%;
+    height: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    border: 2px solid black;
+  }
+  
+  @media screen and (max-width:1200px) {
+    .box{
+      width: 35%;
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    .box{
+      width: 90%;
+    }
+  }
+  
