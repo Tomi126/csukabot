@@ -141,5 +141,6 @@ nav ul li a {
 
 .box .content p span {
   font-weight: bold;
-  color: crimson;
+  color: white;
+  text-decoration: underline;
 }
